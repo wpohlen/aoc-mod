@@ -28,7 +28,7 @@ class ConfigManager:
         # bot settings
         "main_category_id": None,
         "fallback_category_id": None,
-        "prefix": "?",
+        "prefix": "-",
         "mention": "@here",
         "main_color": str(discord.Color.blurple()),
         "error_color": str(discord.Color.red()),
@@ -77,9 +77,9 @@ class ConfigManager:
 
     private_keys = {
         # bot presence
-        "activity_message": "",
-        "activity_type": None,
-        "status": None,
+        "activity_message": "AOC is god | Dm for support",
+        "activity_type": Listening to,
+        "status": AOC is God,
         # dm_disabled 0 = none, 1 = new threads, 2 = all threads
         # TODO: use enum
         "dm_disabled": 0,
